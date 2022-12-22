@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+		<title>Mario</title>
+		<meta name="description" content="">
+		<meta name="author" content="Samet Tonyali">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		
+	</head>
+
+	<body>
+		<div id="bannerdiv">
+		<img id="banner" src="img/banner.png">
+		</div>
+		
+		<nav>			
+			<ul id="navul">
+				<li class="navli"><a  class="navan" href="index.html">Home</a> </li>
+				<li class="navli"><a  class="navan" href="game.html"><span>Game</span></a> </li>
+				<li class="navli"><a  class="navan" href="contact.html">Contact</a> </li>
+				<li class="navli"><a  class="navan" href="about.html">About</a> </li>
+			</ul>
+			</nav>
+			<div id="images">
+			<!-- <img id="marioPic" src="img/mario.png"> -->
+			
+				<div id="gamecontainer">
+					<embed id="game"src="builds/Builds.unity3d" type="application/vnd.unity" enabledebugging="0" style="display: block; width: 960px; height: 600px;" title="Unity Player">
+				<!-- <div id="instructions">
+					<h1>Instructies</h1>
+					
+						<p><strong>&#xFFEA;</strong>/Space = Jump</p>
+                        <p><strong>&#xFFE9;</strong>/A = Left</p>
+                        <p><strong>&#xFFEB;</strong>/D = Right</p>
+               			<p>R = Reset</p>
+					
+				</div> -->
+				
+					<table id="instructions" style="font-size: 2rem; margin: auto; border-spacing: 0.5rem;">
+						<thead>
+							<h1 style="color: white;">Instructies:</h1>
+						</thead>
+						<tbody>
+							<tr style="padding: 0.5rem;">
+								<td style="border: 0.5rem ridge white; padding: 0.5rem;"><strong>&#xFFEA;</strong>/Space</td>
+								<td style="border: 0.5rem ridge white; padding: 0.5rem;">Jump</td>
+							</tr>
+							<tr style="padding: 0.5rem;">
+								<td style="border: 0.5rem ridge white; padding: 0.5rem;"><strong>&#xFFE9;</strong>/A</td>
+								<td style="border: 0.5rem ridge white; padding: 0.5rem;">Left</td>
+							</tr>
+							<tr style="padding: 0.5rem;">
+								<td style="border: 0.5rem ridge white; padding: 0.5rem;"><strong>&#xFFEB;</strong>/D</td>
+								<td style="border: 0.5rem ridge white; padding: 0.5rem;">Right</td>
+							</tr>
+						</tbody>
+					</table>
+				
+				</div>
+				
+			<!-- <img id="luigiPic" src="img/Luigi.png"> -->
+			</div>
+				
+		<footer>
+			<p id="pfooter">
+			<img src="img/Mushroom.png"> &copy; Copyright 2014+ <img src="img/Mushroom.png"> 
+				   <br>All Rights Reserved by Team Omniscience <br> Web design by Samet Tonyali
+			</p>
+		</footer>
+	</body>
+</html>

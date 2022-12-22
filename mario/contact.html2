@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+		<title>Mario</title>
+		<meta name="description" content="">
+		<meta name="author" content="Samet Tonyali">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		
+	</head>
+
+	<body>
+		<div id="bannerdiv">
+		<img id="banner" src="img/banner.png">
+		</div>
+		
+		<nav>			
+			<ul id="navul">
+				<li class="navli"><a  class="navan" href="index.html">Home</a> </li>
+				<li class="navli"><a  class="navan" href="game.html">Game</a> </li>
+				<li class="navli"><a  class="navan" href="contact.html"><span>Contact</span></a> </li>
+				<li class="navli"><a  class="navan" href="about.html">About</a> </li>
+			</ul>
+			</nav>
+			<div id="images"> 
+			<!-- <img id="marioPic" src="img/mario.png"> -->
+			
+			<article id="article">
+				<header>
+				 	<h1>Neem contact op met ons</h1>
+				</header>
+				
+				<p>Dit zijn onze contact gegevens, onze site is nog niet zo lang online dus je kunt momenteel ons mailen of bellen door de email-addres of het telefoon nummer te bellen die beneden in de pagina is vermeld. <br>
+					 Je kunt ons natuurlijk ook gewoon een gezellig mailtje sturen over van alles en nog wat en als je fouten hebt ondekt kun je deze ook doorgeven.</p>
+			<br><br>
+				<p>Mail:TeamOmni@TOS.nl</p>
+				<p>Tel: 0505250141</p>
+			</article>
+			<!-- <img id="luigiPic" src="img/Luigi.png"> -->
+			</div>
+			<footer>
+				<p id="pfooter">
+					<img src="img/Mushroom.png"> &copy; Copyright 2014+ <img src="img/Mushroom.png"> 
+				   <br>All Rights Reserved by Team Omniscience <br> Web design by Samet Tonyali
+				</p>
+			</footer>
+	</body>
+</html>
