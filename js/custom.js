@@ -123,17 +123,17 @@ $(document).ready(function () {
                 aBackgroundImg: 'images/progress.png'
             });
 			$(".pr2").progression({
-                Current: 60,
-                Easing: 'easeOutExpo',
-                aBackgroundImg: 'images/progress.png'
-            });
-            $(".pr3").progression({
                 Current: 90,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
-            $(".pr4").progression({
+            $(".pr3").progression({
                 Current: 30,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+            $(".pr4").progression({
+                Current: 60,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
