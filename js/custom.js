@@ -84,7 +84,7 @@ $(document).ready(function () {
                         },
                         complete: function () {
                             $(this).remove();
-                            $(".load").fadeOut(1000)
+                            $(".load").fadeOut(1)
                         }
                     });
                     setTimeout(function () {
