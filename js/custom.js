@@ -143,32 +143,32 @@ $(document).ready(function () {
                 aBackgroundImg: 'images/progress.png'
             });
 			$(".pr6").progression({
+                Current: 60,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+			$(".pr7").progression({
                 Current: 20,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
-            $(".pr7").progression({
+            $(".pr8").progression({
                 Current: 40,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
-			$(".pr8").progression({
+			$(".pr9").progression({
                 Current: 20,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
-            $(".pr9").progression({
+            $(".pr10").progression({
                 Current: 55,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
-            $(".pr10").progression({
-                Current: 10,
-                Easing: 'easeOutExpo',
-                aBackgroundImg: 'images/progress.png'
-            });
             $(".pr11").progression({
-                Current: 15,
+                Current: 10,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
@@ -177,8 +177,18 @@ $(document).ready(function () {
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
-			$(".pr13").progression({
+            $(".pr13").progression({
+                Current: 15,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+			$(".pr14").progression({
                 Current: 35,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+			$(".pr15").progression({
+                Current: 10,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
