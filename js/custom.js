@@ -74,17 +74,17 @@ $(document).ready(function () {
                     });
                     $(".scanner").hide();
                     $(".main").show();
-                    $(".load").fadeTo(5, 0.3).fadeIn(2500);
+                    $(".load").fadeTo(50, 0.07).fadeIn(2500);
                     $(".shut-left,.shut-right").delay(1500).animate({
                         width: "0px"
                     }, {
-                        duration: 3500,
+                        duration: 3400,
                         specialEasing: {
                             width: 'easeOutExpo'
                         },
                         complete: function () {
                             $(this).remove();
-                            $(".load").fadeOut(1000)
+                            $(".load").fadeOut(920)
                         }
                     });
                     setTimeout(function () {
