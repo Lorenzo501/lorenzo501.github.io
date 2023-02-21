@@ -143,7 +143,7 @@ $(document).ready(function () {
                 aBackgroundImg: 'images/progress.png'
             });
 			$(".pr6").progression({
-                Current: 60,
+                Current: 65,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
