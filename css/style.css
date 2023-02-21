@@ -138,7 +138,7 @@ ul.who li.last { margin-bottom:0;}
 
 div.skills{ margin:5px 0 20px 0; display:inline-block;}
 div.skills div{ width:241px; height:21px; margin:0 20px 20px 0; padding:0; float:left;}
-div.skills div.last{width:210px; height:21px; margin:0; padding:0; font-weight:400; color: #efefef; font-size:18px;text-shadow:1px 1px 0px #000000;font-family:'UbuntuMonoRegular';}
+div.skills div.last{width:230px; height:21px; margin:0; padding:0; font-weight:400; color: #efefef; font-size:18px;text-shadow:1px 1px 0px #000000;font-family:'UbuntuMonoRegular';}
 div.skills div.bar{background:url(../images/progressbar.png) top center no-repeat;}
 div.skills div.bar-b{margin-bottom:0;}
 div.bar div.block-pr{width: 100%;height: 21px; }
