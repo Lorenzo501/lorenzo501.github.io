@@ -118,7 +118,7 @@ $(document).ready(function () {
     $('a.skill-start').click(function () {
         setTimeout(function () {
             $(".pr1").progression({
-                Current: 65,
+                Current: 55,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
@@ -133,32 +133,27 @@ $(document).ready(function () {
                 aBackgroundImg: 'images/progress.png'
             });
             $(".pr4").progression({
-                Current: 40,
+                Current: 20,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             })
             $(".pr5").progression({
-                Current: 55,
+                Current: 40,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
             $(".pr6").progression({
-                Current: 30,
-                Easing: 'easeOutExpo',
-                aBackgroundImg: 'images/progress.png'
-            });
-            $(".pr7").progression({
-                Current: 20,
+                Current: 60,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
             $(".pr8").progression({
-                Current: 70,
+                Current: 90,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
             $(".pr9").progression({
-                Current: 60,
+                Current: 30,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
