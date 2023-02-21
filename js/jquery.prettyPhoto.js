@@ -86,7 +86,7 @@
             iframe_markup: '<iframe src ="{path}" width="{width}" height="{height}" frameborder="no"></iframe>',
             inline_markup: '<div class="pp_inline">{content}</div>',
             custom_markup: '',
-            social_tools: '<div class="pp_social"><div class="twitter"></div><div class="facebook"></div><div class="vk"><div id="vk_likeButton"></div><script type="text/javascript" src="http://vkontakte.ru/js/api/openapi.js?28" charset="windows-1251"></script></div></div>', /* html or false to disable */
+            social_tools: '<div class="pp_social"><div class="twitter"></div><div class="facebook"></div><div class="vk"><div id="vk_likeButton"></div><script type="text/javascript" src="https://vkontakte.ru/js/api/openapi.js?28" charset="windows-1251"></script></div></div>', /* html or false to disable */
             twitter: true, /* Show twitter "follow" button */
             facebook: true, /* Show facebook "like" button */
             vk_id: false /* "VK site ID" to show vk.com "like" button or false to disable */
@@ -258,7 +258,7 @@
                     case 'youtube':
                         pp_dimensions = _fitToViewport(movie_width, movie_height); // Fit item to viewport
 
-                        movie = 'http://www.youtube.com/embed/' + getParam('v', pp_images[set_position]);
+                        movie = 'https://www.youtube.com/embed/' + getParam('v', pp_images[set_position]);
                         (getParam('rel', pp_images[set_position])) ? movie += "?rel=" + getParam('rel', pp_images[set_position]) : movie += "?rel=1";
 
                         if (settings.autoplay) movie += "&autoplay=1";
@@ -485,7 +485,7 @@
                 var description = pp_descriptions[set_position].replace(/'/g, "\"");
                 description = description.replace(/"/g, "\\\"");
                 description = "";
-                $('#vk_likeButton').html('<script type="text/javascript" src="http://vkontakte.ru/js/api/openapi.js?28" charset="windows-1251"></script><script type="text/javascript">VK.init({apiId: ' + settings.vk_id + ', onlyWidgets: true});VK.Widgets.Like("vk_likeButton", {width: 100, pageTitle: "' + title + '", pageDescription: "' + description + '"});</script>');
+                $('#vk_likeButton').html('<script type="text/javascript" src="https://vkontakte.ru/js/api/openapi.js?28" charset="windows-1251"></script><script type="text/javascript">VK.init({apiId: ' + settings.vk_id + ', onlyWidgets: true});VK.Widgets.Like("vk_likeButton", {width: 100, pageTitle: "' + title + '", pageDescription: "' + description + '"});</script>');
             }
         };
 
@@ -495,7 +495,7 @@
         function _changeTwitter() {
             if (settings.twitter) {
                 var link = _getCurrentPictureLink();
-                $('.pp_social .twitter').html('<a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>');
+                $('.pp_social .twitter').html('<a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>');
             }
         };
 
@@ -505,7 +505,7 @@
         function _changeFacebook() {
             if (settings.facebook) {
                 var link = _getCurrentPictureLink();
-                $('.pp_social .facebook').html('<iframe src="http://www.facebook.com/plugins/like.php?locale=en_US&href=' + link + '&amp;layout=button_count&amp;show_faces=false&amp;width=500&amp;action=like&amp;font&amp;colorscheme=light&amp;height=23" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:23px;" allowTransparency="true"></iframe>');
+                $('.pp_social .facebook').html('<iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&href=' + link + '&amp;layout=button_count&amp;show_faces=false&amp;width=500&amp;action=like&amp;font&amp;colorscheme=light&amp;height=23" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:23px;" allowTransparency="true"></iframe>');
             }
         };
 
