@@ -132,27 +132,37 @@ $(document).ready(function () {
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
-            $(".pr4").progression({
-                Current: 40,
+			$(".pr4").progression({
+                Current: 60,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
-            })
-            $(".pr5").progression({
-                Current: 55,
+            });
+			$(".pr5").progression({
+                Current: 20,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
             $(".pr6").progression({
-                Current: 10,
+                Current: 40,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
             $(".pr7").progression({
-                Current: 15,
+                Current: 55,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
             $(".pr8").progression({
+                Current: 10,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+            $(".pr9").progression({
+                Current: 15,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+            $(".pr10").progression({
                 Current: 15,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
