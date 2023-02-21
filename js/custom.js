@@ -188,6 +188,21 @@ $(document).ready(function () {
                 aBackgroundImg: 'images/progress.png'
             });
 			$(".pr15").progression({
+                Current: 20,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+			$(".pr16").progression({
+                Current: 30,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+			$(".pr17").progression({
+                Current: 10,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+			$(".pr18").progression({
                 Current: 10,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
