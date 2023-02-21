@@ -117,43 +117,43 @@ $(document).ready(function () {
     }).filter(':first').click();
     $('a.skill-start').click(function () {
         setTimeout(function () {
-            $(".pr1").progression({
-                Current: 55,
-                Easing: 'easeOutExpo',
-                aBackgroundImg: 'images/progress.png'
-            });
-            $(".pr2").progression({
-                Current: 10,
-                Easing: 'easeOutExpo',
-                aBackgroundImg: 'images/progress.png'
-            });
-            $(".pr3").progression({
-                Current: 15,
-                Easing: 'easeOutExpo',
-                aBackgroundImg: 'images/progress.png'
-            });
-            $(".pr4").progression({
-                Current: 20,
-                Easing: 'easeOutExpo',
-                aBackgroundImg: 'images/progress.png'
-            })
-            $(".pr5").progression({
-                Current: 40,
-                Easing: 'easeOutExpo',
-                aBackgroundImg: 'images/progress.png'
-            });
-            $(".pr6").progression({
+			$(".pr1").progression({
                 Current: 60,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
-            $(".pr8").progression({
+            $(".pr2").progression({
                 Current: 90,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
-            $(".pr9").progression({
+            $(".pr3").progression({
                 Current: 30,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+            $(".pr4").progression({
+                Current: 40,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            })
+            $(".pr5").progression({
+                Current: 55,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+            $(".pr6").progression({
+                Current: 10,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+            $(".pr7").progression({
+                Current: 15,
+                Easing: 'easeOutExpo',
+                aBackgroundImg: 'images/progress.png'
+            });
+            $(".pr8").progression({
+                Current: 15,
                 Easing: 'easeOutExpo',
                 aBackgroundImg: 'images/progress.png'
             });
