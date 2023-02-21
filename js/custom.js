@@ -74,7 +74,7 @@ $(document).ready(function () {
                     });
                     $(".scanner").hide();
                     $(".main").show();
-                    $(".load").fadeTo(40, 0.3).fadeIn(2500);
+                    $(".load").fadeTo(30, 0.3).fadeIn(2500);
                     $(".shut-left,.shut-right").delay(1500).animate({
                         width: "0px"
                     }, {
