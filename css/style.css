@@ -53,7 +53,7 @@ p {font-size:14px; height:auto;line-height: 1.3em;}
 
 /***** Page start *****/
 
-.container{ pointer-events:none; width:100%; margin:-100px auto auto 0; position:fixed; top:49.55%;}
+.container{ pointer-events:none; width:100%; margin:-100px auto auto 0; position:fixed; top:49.6%;}
 .top{ height:100px; margin:0; background:url(../images/bg-top.png) repeat-x bottom; position:relative;}
 .energy{ height:20px; margin:0; background:url(../images/strip-e.png) top center repeat-x; position:absolute; bottom:-10px; z-index:510;}
 .bg-button{ width:130px; height:130px; background: url(../images/bg-button.png) 0 0 no-repeat; display:block; position: absolute; bottom:-65px; right:0; z-index:500;}
