@@ -12,7 +12,13 @@
 /***** General *****/
 
 html, body { width:100%; margin:0; padding:0; font-family: Trebuchet MS,Arial,Helvetica,sans-serif; position:relative; color:#e2e2e2; text-align:left; line-height: 1.3em; background:#36393d url(../images/bg-body.jpg);}
-/*#wrappage {margin:0 auto; padding:0; position:relative;}*/
+#wrappage {margin:0 auto; padding:0; position:relative;}
+@media (min-width: 320px) {
+  /* SMARTPHONE PORTRAIT */
+  #wrappage {
+    transform: scale(3)!important
+  }
+}
 .left { float:left;}
 .right {float:right;}
 .center{ text-align:center;}
@@ -51,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {margin:0; padding:0;}
 p {font-size:14px; height:auto;line-height: 1.3em;}
 
 
-/***** Page start*****/
+/***** Page start *****/
 
 .container{ pointer-events:none; width:100%; margin:-100px auto auto 0; position:fixed; top:50%;}
 .top{ height:100px; margin:0; background:url(../images/bg-top.png) repeat-x bottom; position:relative;}
@@ -176,7 +182,7 @@ ul.socicon li.last { margin-bottom:0;}
   display: inline-block;
   border-radius: 100%;
 
-  /*Glow transition*/
+  /* Glow transition */
   -webkit-transition: -webkit-box-shadow 0.5s ease-out;;
   -moz-transition: -moz-box-shadow 0.5s ease-out;
   -o-transition: box-shadow 0.5s ease-out;
@@ -196,7 +202,7 @@ ul.socicon li.last { margin-bottom:0;}
   background: transparent url('../images/linkedin.png') no-repeat;
 }
 
-/***** Contact page*****/
+/***** Contact page *****/
 
 .cont-block{ width:255px; margin:0 30px 0 0;}
 .cont-block.last{width:245px;margin-right:0; padding:40px 0 0 0;}
