@@ -109,11 +109,15 @@
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="all" />
 <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
 <style>
-
+#wrappage {
+  margin: 0 auto;
+  padding: 0;
+  position: relative
+}
 @media (min-width: 320px) {
   /* SMARTPHONE PORTRAIT */
   #wrappage {
-    zoom: 300%!important /* 114.8%!important */
+    transform: scale(3)!important /* 114.8%!important */
   }
 }
 /*@media (min-width: 550px) {
@@ -134,11 +138,6 @@
     zoom: 117%!important
   }
 }*/
-#wrappage {
-  margin: 0 auto;
-  padding: 0;
-  position: relative
-}
 </style>
 
 <!--[if IE 8]>
