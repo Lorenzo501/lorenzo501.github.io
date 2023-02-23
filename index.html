@@ -107,12 +107,30 @@
 
 <!-- CSS files begin-->
 <style>
+@media (min-width: 320px) {
+  /* SMARTPHONE PORTRAIT */
+  #wrappage {
+    zoom: 114.8%!important
+  }
+}
+@media (min-width: 550px) {
+  /* SMARTPHONE LANDSCAPE */
+  #wrappage {
+    zoom: 82%!important
+  }
+}
+@media (min-width: 813px) {
+  /* AVERAGE SCREENS (EXCLUDING SMARTPHONE) */
+  #wrappage {
+    zoom: 100%!important
+  }
+}*/
 @media (min-width: 1921px) {
   /* BIG SCREENS (EXCLUDING SMARTPHONE) */
   #wrappage {
     zoom: 117%!important
   }
-}*/
+}
 </style>
 <link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all"/>
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="all" />
