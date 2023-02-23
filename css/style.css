@@ -12,7 +12,7 @@
 /***** General *****/
 
 html, body { width:100%; margin:0; padding:0; font-family: Trebuchet MS,Arial,Helvetica,sans-serif; position:relative; color:#e2e2e2; text-align:left; line-height: 1.3em; background:#36393d url(../images/bg-body.jpg);}
-#wrappage {margin:0 auto; padding:0; position:relative;}
+/*#wrappage {margin:0 auto; padding:0; position:relative;}*/
 .left { float:left;}
 .right {float:right;}
 .center{ text-align:center;}
