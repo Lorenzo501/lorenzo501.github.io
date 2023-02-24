@@ -44,16 +44,13 @@ border: 0;
 @media (min-width: 320px) {
   /* SMARTPHONE PORTRAIT */
   html, body {
-    background-size: 7px!important
+    background-size: 6px
   }
   #wrappage {
     zoom: 48.6%
   }
   .container {
     top: 49.8%
-  }
-  .center-block {
-    background-size: auto!important
   }
   .box-content p.sub {
 	line-height: 0px;
@@ -82,16 +79,13 @@ border: 0;
 @media (min-width: 813px) {
   /* AVERAGE+ SCREENS (EXCLUDING SMARTPHONE) */
   html, body {
-    background-size: auto!important
+    background-size: auto
   }
   #wrappage {
     zoom: 100%
   }
   .container {
     top: 49.8%
-  }
-  .center-block {
-    background-size: auto!important
   }
   .gallery .des {
     bottom: 4px
