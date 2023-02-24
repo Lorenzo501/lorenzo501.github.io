@@ -96,6 +96,9 @@ border: 0;
   #wrappage {
     zoom: 117%
   }
+  .center-block {
+    background-size: 4.3px!important
+  }
   .gallery .des {
     bottom: 2px
   }
