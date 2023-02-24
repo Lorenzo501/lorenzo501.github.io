@@ -49,6 +49,9 @@ border: 0;
   .container {
     top: 49.8%
   }
+  .center-block {
+    background-size: 7px
+  }
   .box-content p.sub {
 	line-height: 0px;
     padding: 0 0 14px 0
@@ -80,6 +83,9 @@ border: 0;
   }
   .container {
     top: 49.8%
+  }
+  .center-block {
+    background-size: auto
   }
   .gallery .des {
     bottom: 4px
