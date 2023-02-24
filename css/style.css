@@ -50,7 +50,7 @@ border: 0;
     top: 49.8%
   }
   .center-block {
-    background-size: 7px!important
+    background-size: 7.3px!important
   }
   .box-content p.sub {
 	line-height: 0px;
@@ -95,9 +95,6 @@ border: 0;
   /* BIG SCREENS (EXCLUDING SMARTPHONE) */
   #wrappage {
     zoom: 117%
-  }
-  .center-block {
-    background-size: 4.3px!important
   }
   .gallery .des {
     bottom: 2px
