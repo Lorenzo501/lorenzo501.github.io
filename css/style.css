@@ -44,7 +44,7 @@ border: 0;
 @media (min-width: 320px) {
   /* SMARTPHONE PORTRAIT */
   html, body {
-    background-size: 6px
+    background-size: 5px
   }
   #wrappage {
     zoom: 48.6%
