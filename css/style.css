@@ -53,7 +53,7 @@ border: 0;
     top: 49.8%
   }
   .bottomspace-about {
-    line-height: 0.4px
+    line-height: 0px
   }
   .box-content p.sub {
 	line-height: 0px;
@@ -70,9 +70,6 @@ border: 0;
   }
   .container {
     top: 49.6%
-  }
-  .bottomspace-about {
-    line-height: 0.005px
   }
   .box-content p.sub {
 	line-height: 1.3em;
