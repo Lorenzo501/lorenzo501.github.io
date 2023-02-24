@@ -52,8 +52,8 @@ border: 0;
   .container {
     top: 49.8%
   }
-  .bottomspace-about {
-    line-height: 0%!important
+  .vertical-space {
+    line-height: 0
   }
   .box-content p.sub {
 	line-height: 0px;
@@ -90,7 +90,7 @@ border: 0;
   .container {
     top: 49.8%
   }
-  .bottomspace-about {
+  .vertical-space {
     line-height: 10px
   }
   .gallery .des {
