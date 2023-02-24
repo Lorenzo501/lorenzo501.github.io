@@ -49,6 +49,10 @@ border: 0;
   .container {
     top: 49.8%
   }
+  .box-content p.sub {
+	line-height: 0px;
+    padding: 0 0 14px 0
+  }
   .gallery .des {
     bottom: 14.6px
   }
@@ -60,6 +64,10 @@ border: 0;
   }
   .container {
     top: 49.6%
+  }
+  .box-content p.sub {
+	line-height: 1.3em;
+    padding: 0 0 4px 0
   }
   .gallery .des {
     bottom: 9px
@@ -155,7 +163,7 @@ a.open img{opacity:0;}
 .box-content{ width:510px; height:390px; position: relative; margin:0 auto; padding:0 30px 0 30px;overflow: auto; display:none;}
 .box-content p{ margin:0 0 20px 0; width:510px;}
 .box-content h3 { font-size:22px; color:#79c113;text-shadow:1px 1px 0px #000000; font-weight:400;margin:2px 0 0 0; font-family:'UbuntuMonoRegular'; padding:0; display:block;}
-.box-content p.sub{ font-size:11px;margin:0 0 22px 0;border-bottom:1px #2b3e20 solid; padding:0 0 4px 0; color:#518e2e;}
+.box-content p.sub{ font-size:11px;margin:0 0 22px 0;border-bottom:1px #2b3e20 solid; color:#518e2e;}
 .box-content-c{ width:530px; height:390px; position: relative; margin:0 auto; padding:0 0 0 30px;overflow: auto; display:none;}
 .box-content-c p{ margin:0 0 20px 0;}
 .box-content-c h3 { font-size:22px; color:#79c113;text-shadow:1px 1px 0px #000000; font-weight:400; margin:0; font-family:'UbuntuMonoRegular';padding:0; }
