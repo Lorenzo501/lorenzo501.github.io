@@ -52,6 +52,9 @@ border: 0;
   .container {
     top: 49.8%
   }
+  .bottomspace-about {
+    line-height: 5px
+  }
   .box-content p.sub {
 	line-height: 0px;
     padding: 0 0 14px 0
@@ -67,6 +70,9 @@ border: 0;
   }
   .container {
     top: 49.6%
+  }
+  .bottomspace-about {
+    line-height: 2px
   }
   .box-content p.sub {
 	line-height: 1.3em;
@@ -86,6 +92,9 @@ border: 0;
   }
   .container {
     top: 49.8%
+  }
+  .bottomspace-about {
+    line-height: 10px
   }
   .gallery .des {
     bottom: 4px
