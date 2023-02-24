@@ -50,7 +50,7 @@ border: 0;
     top: 49.8%
   }
   .center-block {
-    background-size: 7px
+    background-size: 7px!important
   }
   .box-content p.sub {
 	line-height: 0px;
@@ -85,7 +85,7 @@ border: 0;
     top: 49.8%
   }
   .center-block {
-    background-size: auto
+    background-size: auto!important
   }
   .gallery .des {
     bottom: 4px
