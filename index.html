@@ -103,10 +103,8 @@
 <script>
 window.onorientationchange = function()
 {
-    var queryString = '?reload=' + new Date().getTime();
-    $('link[rel="stylesheet"]').each(function () {
-        this.href = this.href.replace(/\?.*|$/, queryString);
-    });
+    var links = document.getElementsByTagName("link");
+	for (var i = 0; i < links.length;i++) { var link = links[i]; if (link.rel === "stylesheet") {link.href += "?"; }}
 }
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
