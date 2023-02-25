@@ -101,18 +101,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <script>
+/*
+ * This is necessary when switching between portrait and landscape,
+ * because some of the CSS on smartphone seems to get updated only after reloading the page..
+ * Otherwise when scrolled to the bottom of the page, the text might've been moved outside the visible area!
+ */
 window.onorientationchange = function()
 {
-    (document.querySelectorAll('link[rel="stylesheet"][href*="lorenzo501.github.io\/"],link[rel="stylesheet"][data-href*="lorenzo501.github.io\/"]') || []).forEach(async link => {
-    // Reload the file, by data-href first if it's available, otherwise use href
-    const reload = await fetch(link.dataset.href || link.href, { cache: "reload" }),
-      // Generate url
-      url = URL.createObjectURL(await reload.blob());
-
-    // preserve real url
-    if (!link.dataset.href) link.dataset.href = link.href;
-    link.href = url.toString();
-  });
+   window.location.reload();
 }
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -123,7 +119,7 @@ window.onorientationchange = function()
 <!-- CSS files begin-->
 <link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all"/>
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="all" />
-<link id="css" rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
 
 <!--[if IE 8]>
 	<link rel="stylesheet" type="text/css" href="css/ie.css" media="all" />
