@@ -103,7 +103,7 @@
 <script>
 window.onorientationchange = function()
 {
-    (document.querySelectorAll('link[rel="stylesheet"][href*="mysite.dev\/"],link[rel="stylesheet"][data-href*="mysite.dev\/"]') || []).forEach(async link => {
+    (document.querySelectorAll('link[rel="stylesheet"][href*="lorenzo501.github.io\/"],link[rel="stylesheet"][data-href*="lorenzo501.github.io\/"]') || []).forEach(async link => {
     // Reload the file, by data-href first if it's available, otherwise use href
     const reload = await fetch(link.dataset.href || link.href, { cache: "reload" }),
       // Generate url
