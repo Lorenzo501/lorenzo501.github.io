@@ -47,7 +47,7 @@ border: 0;
     background-size: 5px
   }
   #wrappage {
-    zoom: 48.6%
+    /*zoom: 48.6%*/
   }
   .container {
     top: 49.8%
@@ -66,7 +66,7 @@ border: 0;
 @media (min-width: 550px) {
   /* SMARTPHONE LANDSCAPE */
   #wrappage {
-    zoom: 68%
+    /*zoom: 68%*/
   }
   .container {
     top: 49.6%
@@ -85,7 +85,7 @@ border: 0;
     background-size: auto
   }
   #wrappage {
-    zoom: 100%
+    /*zoom: 100%*/
   }
   .container {
     top: 49.8%
@@ -100,7 +100,7 @@ border: 0;
 @media (min-width: 1921px) {
   /* BIG SCREENS (EXCLUDING SMARTPHONE) */
   #wrappage {
-    zoom: 117%
+    /*zoom: 117%*/
   }
   .gallery .des {
     bottom: 2px
