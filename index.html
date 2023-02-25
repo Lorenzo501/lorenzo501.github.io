@@ -103,7 +103,16 @@
 <script>
 window.onorientationchange = function()
 {
-    $('#css').replaceWith('<link id="css" rel="stylesheet" href="css/style.css?t=' + Date.now() + '"></link>');
+    (document.querySelectorAll('link[rel="stylesheet"][href*="mysite.dev\/"],link[rel="stylesheet"][data-href*="mysite.dev\/"]') || []).forEach(async link => {
+    // Reload the file, by data-href first if it's available, otherwise use href
+    const reload = await fetch(link.dataset.href || link.href, { cache: "reload" }),
+      // Generate url
+      url = URL.createObjectURL(await reload.blob());
+
+    // preserve real url
+    if (!link.dataset.href) link.dataset.href = link.href;
+    link.href = url.toString();
+  });
 }
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
