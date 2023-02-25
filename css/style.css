@@ -164,11 +164,11 @@ a.open img{opacity:0;}
 
 .load{ width:64px; height:64px; background:url(../images/loader.gif) 0 0 no-repeat; position:absolute; top:50%; left:50%; margin:-32px 0 0 -32px; display:none; z-index:9999;}
 .main{ width:820px; height:450px; margin:0 auto; position:relative; padding:0; display:none;}
-.page{ width:820px; height:450px; margin:0 auto; padding:0; display:flex; background:url(../images/bg-page.png) top center no-repeat;}
+.page{ width:820px; height:450px; margin:0 auto; padding:0; display:none; background:url(../images/bg-page.png) top center no-repeat;}
 .shut-left{ width:600px; height:450px; background:url(../images/shut-left.png) top right no-repeat; position:absolute; left:0; bottom:0; z-index:300;}
 .shut-right{ width:700px; height:450px; background:url(../images/shut-right.png) top left no-repeat; position:absolute; right:0; bottom:0; z-index:290;}
 .box-left{ width:230px; height:450px; position: relative; margin:0 auto; padding:0;}
-.cont{width:570px; height:390px;margin:0;padding:30px 20px 30px 0;flex:initial;}
+.cont{width:570px; height:390px;margin:0;padding:30px 20px 30px 0;}
 .box-c{width:560px; height:390px;margin:0;padding:30px 30px 30px 0;}
 .box{ width:570px; height:390px; position: relative; margin:0 auto; padding:0;}
 .info{ width:200px; height:210px; padding:30px 0 30px 30px; margin:0;}
