@@ -41,7 +41,71 @@ border: 0;
 
 /***** Device specific *****/
 
-
+@media (min-width: 320px) {
+  /* SMARTPHONE PORTRAIT */
+  html, body {
+    background-size: 5px
+  }
+  #wrappage {
+    zoom: 48.6%
+  }
+  .container {
+    top: 49.8%
+  }
+  .vertical-space {
+    line-height: 0
+  }
+  .box-content p.sub {
+	line-height: 0px;
+    padding: 0 0 14px 0
+  }
+  .gallery .des {
+    bottom: 14.6px
+  }
+}
+@media (min-width: 550px) {
+  /* SMARTPHONE LANDSCAPE */
+  #wrappage {
+    zoom: 68%
+  }
+  .container {
+    top: 49.6%
+  }
+  .box-content p.sub {
+	line-height: 1.3em;
+    padding: 0 0 4px 0
+  }
+  .gallery .des {
+    bottom: 9px
+  }
+}
+@media (min-width: 813px) {
+  /* AVERAGE+ SCREENS (EXCLUDING SMARTPHONE) */
+  html, body {
+    background-size: auto
+  }
+  #wrappage {
+    zoom: 100%
+  }
+  .container {
+    top: 49.8%
+  }
+  .vertical-space {
+    line-height: 10px
+  }
+  .gallery .des {
+    bottom: 4px
+  }
+}
+@media (min-width: 1921px) {
+  /* BIG SCREENS (EXCLUDING SMARTPHONE) */
+  #wrappage {
+    zoom: 117%
+  }
+  .gallery .des {
+    bottom: 2px
+  }
+}
 
 /***** Typography & Element *****/
 
