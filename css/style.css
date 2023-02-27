@@ -64,7 +64,7 @@ border: 0;
     bottom: 14.6px
   }
 }
-@media (min-width: 800px) {
+@media screen and (device-height: 480px) and (device-width: 320px) and (width: 480px) and (max-height: 320px) {
   /* SMARTPHONE LANDSCAPE */
   html, body {
 	background: green
