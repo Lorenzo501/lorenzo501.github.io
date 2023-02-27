@@ -100,6 +100,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<script>
+/*
+ * This is necessary when switching between portrait and landscape,
+ * because some of the CSS on smartphone seems to get updated only after reloading the page..
+ * Otherwise when scrolled to the bottom of the page, the text might've been moved outside the visible area!
+ * The <meta name="viewport"..> & CSS zoom feature seem to be the cause <.<
+ */
+window.onorientationchange = function()
+{
+   if (window.innerHeight > window.innerWidth)
+    {
+        document.getElementsByTagName('body')[0].style.transform = "rotate(90deg)";
+    }
+}
+</script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
