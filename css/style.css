@@ -64,9 +64,9 @@ border: 0;
     bottom: 14.6px
   }
 }
-@media (min-width: 550px) {
+/*@media (min-width: 550px) {*/
   /* SMARTPHONE LANDSCAPE */
-  html, body {
+  /*html, body {
 	background: green
   }
   #wrappage {
@@ -82,7 +82,7 @@ border: 0;
   .gallery .des {
     bottom: 9px
   }
-}
+}*/
 @media (min-width: 813px) {
   /* AVERAGE+ SCREENS (EXCLUDING SMARTPHONE) */
   html, body {
