@@ -44,7 +44,8 @@ border: 0;
 @media (min-width: 320px) {
   /* SMARTPHONE PORTRAIT */
   html, body {
-    background-size: 5px
+    background-size: 5px;
+	background: white
   }
   #wrappage {
     zoom: 48.6%
@@ -65,6 +66,9 @@ border: 0;
 }
 @media (min-width: 550px) {
   /* SMARTPHONE LANDSCAPE */
+  html, body {
+	background: green
+  }
   #wrappage {
     zoom: 68%
   }
@@ -82,7 +86,8 @@ border: 0;
 @media (min-width: 813px) {
   /* AVERAGE+ SCREENS (EXCLUDING SMARTPHONE) */
   html, body {
-    background-size: auto
+    background-size: auto;
+	background: blue
   }
   #wrappage {
     zoom: 100%
